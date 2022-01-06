@@ -1,0 +1,90 @@
+# Logs
+server/logs
+server/*.log
+server/npm-debug.log*
+client/logs
+client/*.log
+client/npm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+server/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+client/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+server/pids
+server/*.pid
+server/*.seed
+server/*.pid.lock
+client/pids
+client/*.pid
+client/*.seed
+client/*.pid.lock
+
+# node-waf configuration
+server/.lock-wscript
+client/.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+server/build/Release
+client/build/Release
+
+# Dependency directories
+server/node_modules/
+server/jspm_packages/
+client/node_modules/
+client/jspm_packages/
+
+# Optional npm cache directory
+server/.npm
+client/.npm
+
+# Optional eslint cache
+server/.eslintcache
+client/.eslintcache
+
+# Microbundle cache
+server/.rpt2_cache/
+server/.rts2_cache_cjs/
+server/.rts2_cache_es/
+server/.rts2_cache_umd/
+client/.rpt2_cache/
+client/.rts2_cache_cjs/
+client/.rts2_cache_es/
+client/.rts2_cache_umd/
+
+# Optional REPL history
+server/.node_repl_history
+client/.node_repl_history
+
+# Output of 'npm pack'
+server/*.tgz
+client/*.tgz
+
+# dotenv environment variables file
+server/.env
+server/.env.test
+client/.env
+client/.env.test
+
+# Gatsby files
+server/.cache/
+client/.cache/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Visual Studio Code Patch
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
